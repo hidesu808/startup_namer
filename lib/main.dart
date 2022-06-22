@@ -8,12 +8,12 @@ void main() {
 
 class MyApp extends StatelessWidget {
    const MyApp({Key? key}) : super(key: key);
+  
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Welcome to flutter',
-
+    return const MaterialApp(
+      title: 'Startup Name Generator',
       home: RandomWords(),
-      );
+    );
   }
 }

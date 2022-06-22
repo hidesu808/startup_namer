@@ -1,7 +1,7 @@
 import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
 
-class Suggestions extends StatefulWidget {
+class Suggestions extends StatelessWidget {
   const Suggestions({Key ? key, required this.saved}) : super(key: key);
   final List<WordPair> saved;
   
